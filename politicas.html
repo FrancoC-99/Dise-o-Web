@@ -4,18 +4,25 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Políticas de privacidad - DermeBAL®</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="Css/style-v2.css" />
+  <link rel="shortcut icon" href="Imagenes/Logo-favicon-fondo-transparente.png" type="image/x-icon">
 </head>
-<body>
+<body id="cuerpo">
   <header class="encabezado">
-    <div class="contenedor-encabezado">
-      <section class="section-logo-encabezado">
-        <img src="/Imagenes/Logo3.png" alt="Logo y eslogan DermeBAL" class="logo-img">
-      </section>
+  <div class="contenedor-encabezado">
+    <section class="section-logo-encabezado">
+      <img src="/Imagenes/Logo3.png" alt="Logo y eslogan DermeBAL" class="logo-img">
+    </section>
+    <section class="section-encabezado-derecha">
+      <div class="caja-modo-nocturno" id="caja-modo-nocturno">
+        <i class="boton-modo-nocturno bi bi-moon" id="luna-bootstrap"></i>
+        <i class="boton-modo-nocturno bi bi-moon-fill" id="luna-bootstrap-rellena"></i>
+      </div>
       <nav class="section-menu-encabezado"> <!-- Menu -->
         <ul class="menu-encabezado-lista">
           <li><a href="#cuerpo">Inicio</a></li>
-          <li><a href="#producto">El producto</a></li>
+          <li><a href="#producto">Producto</a></li>
           <li><a href="#ciencia">Ciencia</a></li>
           <li><a href="#equipo">Quiénes somos</a></li>
           <li><a href="#proyeccion">Proyección</a></li>
@@ -23,8 +30,9 @@
           <li><a href="#faq">Ayuda</a></li>
         </ul>
       </nav>
-    </div>
-  </header>
+    </section>
+  </div>
+</header>
   <main class="contenido-principal">
     <section class="seccion-legal">
       <h1 class="titulo1-t">Políticas de privacidad</h1>
@@ -58,5 +66,7 @@
       </div>
     </div>
   </footer>
+
+<script src="Javascript/javascript.js"></script>
 </body>
 </html>
