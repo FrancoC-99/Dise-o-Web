@@ -9,7 +9,7 @@ html {
   scroll-behavior: smooth;
 }
 .encabezado {
-    background-image: url('Css/Imagenesstyle/white-background.jpg');
+    background-image: url('Imagenesstyle/white-background.jpg');
     background-size: cover;
     background-position: center;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
@@ -802,4 +802,5 @@ body.modo-nocturno footer a:hover {
   main .contenido-principal .seccion-producto .bloque-superior .contenedor-imagen-main{
     width: 80%;
   }
+
 }
